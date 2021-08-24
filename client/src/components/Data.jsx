@@ -1,6 +1,5 @@
 import { getData } from '../services';
 import { useState, useEffect } from 'react'
-import Skills from './Skills';
 import './Data.css'
 
 
