@@ -1,6 +1,11 @@
 .Footer{
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     color:white;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
