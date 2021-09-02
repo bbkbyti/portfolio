@@ -1,4 +1,7 @@
 import React from 'react'
+import { FaReact } from "react-icons/fa";
+import { DiRuby, DiMongodb, } from "react-icons/di";
+import { SiRails, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiPostgresql } from "react-icons/si";
 
 
 export default function Homepage() {
@@ -12,37 +15,82 @@ export default function Homepage() {
                 </h1>
             </div>
 
-            <div className='grid grid-cols-3'>
-                <div className='flex justify-center flex-col items-center bg-gray-200'>
-                    <p className='text-4xl py-3 italic font-bold'>
+            <div className=' min-h-screen flex flex-col'>
+                <div className='flex flex-col items-center'>
+                    <p className='text-4xl italic font-bold'>
                         Software Developer</p>
-                    <img className='w-1/4' src='https://media-exp1.licdn.com/dms/image/C4E03AQEKYXIdyXITzQ/profile-displayphoto-shrink_100_100/0/1609626216703?e=1635984000&v=beta&t=WUd7Vg-tRq61eXVrBr4WMsQpqlYHqvBXrjl8WZcCw7k' alt='profile picture' />
-                    <div className='text-xl font-bold italic py-3'>
-                    <p>Babak Bayati</p>
-                    <p>bbkbyti@outlook.com</p>
-                    <p>(512)-743-6060</p>
-                    <p>Austin, TX</p>
+                    <img className='w-1/6 rounded-full' src='https://i.imgur.com/fB1J9Lg.png' alt='profile picture' />
+                    <div className='text-xl font-bold italic py-4'>
+                        <p>Babak Bayati</p>
+                        <p>bbkbyti@outlook.com</p>
+                        <p>(512)-743-6060</p>
+                        <p>Austin, TX</p>
                     </div>
-                    
+
                 </div>
-                <div className='bg-blue-200 py-6'>
-                    <h2 className='text-4xl py-3 italic font-bold'>
+                <div className='lg:bg-gray-200 '>
+                    <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center'>
                         Skills</h2>
-                    <hr />
-                    <div className='text-xl font-bold italic py-3'>
-                        <p>JavaScript</p>
-                        <p>CSS</p>
-                        <p>HTML</p>
-                        <p>React</p>
-                        <p>Ruby</p>
-                        <p>Ruby on Rails</p>
-                        <p>MongoDB</p>
+                    <div className='lg:text-xl lg:font-bold lg:italic lg:py-3 lg:flex lg:justify-evenly '>
+                        <div className=''>
+                            <SiJavascript />
+                            <p>JavaScript</p>
+                        </div>
+                        
+                        <div>
+                            <FaReact />
+                            <p>React</p>
+                        </div>
+
+                        <div>
+                            <SiCss3 />
+                            <p>CSS</p>
+                        </div>
+
+                        <div>
+                            <SiTailwindcss />
+                            <p>Tailwind</p>
+                        </div>
+
+                        <div>
+                            <SiHtml5 />
+                            <p>HTML</p>
+                        </div>
+
+                        <div>
+                            <DiRuby />
+                            <p>Ruby</p>
+                        </div>
+
+                        <div>
+                            <SiRails />
+                            <p>Ruby on Rails</p>
+                        </div>
+
+                        <div>
+                            <DiMongodb />
+                            <p>MongoDB</p>
+                        </div>
                         <p>Express</p>
                     </div>
 
                 </div>
-                <div className='bg-red-100'>
-                    <h2 className='text-3xl'>Projects</h2>
+                <div className='lg:bg-blue-300 lg:flex lg:flex-col lg:items-center'>
+                    <h2 className='text-4xl italic font-bold'>
+                        Projects</h2>
+                    <hr />
+                    <div className='lg:flex lg:flex-row'>
+                        <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/RlnDkjX.png' alt='Project Website' />
+                        <p>Project 1</p>
+
+                        <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/yMwHlXT.png' alt='Project Website' />
+                        <p>Project 2</p>
+
+                        <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/Xii5sCM.png' alt='Project Website' />
+                        <p>Project 3</p>
+                        <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/u3wZtbl.png' alt='Project Website' />
+                        <p>Project 4</p>
+                    </div>
                 </div>
             </div>
         </div>
