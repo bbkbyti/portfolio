@@ -17,7 +17,7 @@ export default function Homepage() {
 
             <div className=' min-h-screen flex flex-col'>
                 <div className='flex flex-col items-center'>
-                    <p className='text-4xl italic font-bold'>
+                    <p className='text-4xl italic font-bold py-6'>
                         Software Developer</p>
                     <img className='w-1/6 rounded-full' src='https://i.imgur.com/fB1J9Lg.png' alt='profile picture' />
                     <div className='text-xl font-bold italic py-4'>
@@ -28,68 +28,66 @@ export default function Homepage() {
                     </div>
 
                 </div>
-                <div className='lg:bg-gray-200 '>
-                    <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center'>
+                <div className='lg:bg-gray-200 py-6 '>
+                    <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center pb-6'>
                         Skills</h2>
                     <div className='lg:text-xl lg:font-bold lg:italic lg:py-3 lg:flex lg:justify-evenly '>
                         <div className=''>
-                            <SiJavascript />
+                            <SiJavascript size={60} />
                             <p>JavaScript</p>
                         </div>
-                        
+
                         <div>
-                            <FaReact />
+                            <FaReact size={60} />
                             <p>React</p>
                         </div>
 
                         <div>
-                            <SiCss3 />
+                            <SiCss3 size={60} />
                             <p>CSS</p>
                         </div>
 
                         <div>
-                            <SiTailwindcss />
+                            <SiTailwindcss size={60} />
                             <p>Tailwind</p>
                         </div>
 
                         <div>
-                            <SiHtml5 />
-                            <p>HTML</p>
+                            <SiHtml5 size={60} />
+                            <p>HTML5</p>
                         </div>
 
                         <div>
-                            <DiRuby />
+                            <DiRuby size={60} />
                             <p>Ruby</p>
                         </div>
 
                         <div>
-                            <SiRails />
+                            <SiRails size={60} />
                             <p>Ruby on Rails</p>
                         </div>
 
                         <div>
-                            <DiMongodb />
+                            <DiMongodb size={60} />
                             <p>MongoDB</p>
                         </div>
-                        <p>Express</p>
+                        <div>
+                            <SiPostgresql size={60} />
+                            PostgreSQL
+                        </div>
+
                     </div>
 
                 </div>
-                <div className='lg:bg-blue-300 lg:flex lg:flex-col lg:items-center'>
-                    <h2 className='text-4xl italic font-bold'>
+                <div className='lg:flex lg:flex-col lg:items-center'>
+                    <h2 className='text-4xl italic font-bold py-6'>
                         Projects</h2>
                     <hr />
-                    <div className='lg:flex lg:flex-row'>
+                    <div className='lg:flex lg:flex-row py-8'>
                         <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/RlnDkjX.png' alt='Project Website' />
-                        <p>Project 1</p>
-
                         <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/yMwHlXT.png' alt='Project Website' />
-                        <p>Project 2</p>
-
                         <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/Xii5sCM.png' alt='Project Website' />
-                        <p>Project 3</p>
                         <img className='w-5/6 h-20 rounded-2xl' src='https://i.imgur.com/u3wZtbl.png' alt='Project Website' />
-                        <p>Project 4</p>
                     </div>
                 </div>
             </div>
