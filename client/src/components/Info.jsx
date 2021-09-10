@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Info() {
     return (
         <div>
-            <div className='flex flex-col items-center'>
-                <p className='text-4xl italic font-bold py-6'>
+            <div className='lg:flex lg:flex-col lg:items-center lg:bg-gray-400 lg:py-2 lg:px-6 lg:ml-28 lg:rounded-3xl'>
+                <p className='lg:text-4xl lg:italic lg:font-bold lg:py-6'>
                     Software Developer</p>
-                <img className='w-1/6 rounded-full' src='https://i.imgur.com/fB1J9Lg.png' alt='profile picture' />
+                <img className='lg:w-3/6 lg:rounded-full' src='https://i.imgur.com/fB1J9Lg.png' alt='profile picture' />
                 <div className='text-xl font-bold italic py-4'>
                     <p className='lg:text-3xl lg:py-4'>
                         Babak Bayati</p>

@@ -5,7 +5,7 @@ import { SiRails, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiPostgresql } f
 
 export default function Skills() {
     return (
-        <div className=''>
+        <div className='lg:mx-28'>
             <div className='lg:bg-gray-200 lg:py-16 lg:my-14 '>
                     <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center lg:pb-3 '>
                         Skills</h2>
