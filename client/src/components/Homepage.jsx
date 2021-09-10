@@ -2,7 +2,6 @@ import { Route } from 'react-router-dom';
 import Info from './Info';
 import Projects from './Projects';
 import Skills from './Skills';
-import Resume from './Resume';
 
 
 

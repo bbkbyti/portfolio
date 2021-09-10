@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
 
 export default function Info() {
     return (
@@ -28,9 +28,18 @@ export default function Info() {
                             </a>
                         </div>
                     </div>
-
+                    <div className='lg:flex lg:items-center lg:justify-center '>
+                        <a href='https://drive.google.com/file/d/1PigtBBSPn3l3yf1XRtlWQREkfMUI02yO/view?usp=sharing' target='_blank' rel='noreferrer'
+                        >
+                        <FaRegFilePdf className='lg:transition lg:duration-500 lg:hover:opacity-70 lg:transform lg:ease-in-out lg:hover:-translate-y-1 lg:hover:scale-110' size={30} />
+                        </a>
+                        <p className='lg:mx-1'
+                        >Resume</p>
+                    </div>
                 </div>
+
             </div>
+
         </div>
     )
 }
