@@ -7,7 +7,7 @@ import Skills from './Skills';
 export default function Homepage() {
     return (
         <div className=' min-h-screen font-serif '>
-            <div className='bg-gray-200'>
+            <div className='lg:bg-gray-200 lg:py-12 lg:mb-10'>
                 <h1 className='text-xl py-8 mx-64 font-bold italic '>Supportive and communicative Junior Developer with a background in customer service and management.
                     Having moved to three different countries during childhood, Possess exceptional problem-solving skills,
                     a knack for adaptability, and a strong sense of ethics. These traits blend seamlessly with ability to facilitate

@@ -5,11 +5,11 @@ import { SiRails, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiPostgresql } f
 
 export default function Skills() {
     return (
-        <div>
-            <div className='lg:bg-gray-200 py-6 '>
-                    <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center pb-6'>
+        <div className=''>
+            <div className='lg:bg-gray-200 lg:py-16 lg:my-14 '>
+                    <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center lg:pb-3 '>
                         Skills</h2>
-                    <div className='lg:text-xl lg:font-bold lg:italic lg:py-3 lg:flex lg:justify-evenly '>
+                    <div className='lg:text-xl lg:font-bold lg:italic lg:py-3 lg:flex lg:justify-evenly lg:py-10'>
                         <div className=''>
                             <SiJavascript size={60} />
                             <p>JavaScript</p>
