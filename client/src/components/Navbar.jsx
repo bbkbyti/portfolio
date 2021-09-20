@@ -17,7 +17,7 @@ export default function Navbar() {
                 <p>Projects</p>
             </div>
             <div className='lg:flex lg:items-center'>
-                <a  href='https://drive.google.com/file/d/1PigtBBSPn3l3yf1XRtlWQREkfMUI02yO/view?usp=sharing' target='_blank' rel='noreferrer'>
+                <a  href='https://drive.google.com/file/d/1LuaJZYYZ5o-JKNp-JPa9YWAWVZv2EBsc/view?usp=sharing' target='_blank' rel='noreferrer'>
                 <FaRegFilePdf size={25} />
                 </a>
                 <p className='lg:mx-1'
