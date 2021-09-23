@@ -29,7 +29,7 @@ export default function Info() {
                         </div>
                     </div>
                     <div className='lg:flex lg:items-center lg:justify-center '>
-                        <a href='https://drive.google.com/file/d/1UparOoK0VnToThR3mxBFLe8L67kqfQQR/view?usp=sharing' target='_blank' rel='noreferrer'
+                        <a href='https://drive.google.com/file/d/1ToL1NfY2nFEP6rFzzWSOyHfYgUcUO0Na/view?usp=sharing' target='_blank' rel='noreferrer'
                         >
                         <FaRegFilePdf className='lg:transition lg:duration-500 lg:hover:opacity-70 lg:transform lg:ease-in-out lg:hover:-translate-y-1 lg:hover:scale-110' size={30} />
                         </a>
