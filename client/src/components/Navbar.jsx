@@ -14,7 +14,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <p>Projects</p>
+                <a href='#projects'>Projects</a>
             </div>
             <div className='lg:flex lg:items-center'>
                 <a  href='https://drive.google.com/file/d/1ToL1NfY2nFEP6rFzzWSOyHfYgUcUO0Na/view?usp=sharing' target='_blank' rel='noreferrer'>
