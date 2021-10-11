@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaReact } from "react-icons/fa";
 import { DiRuby, DiMongodb, } from "react-icons/di";
-import { SiRails, SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiPostgresql } from "react-icons/si";
+import { SiRails, SiHtml5, SiCss3, SiJavascript, SiPostgresql } from "react-icons/si";
 import './Skills.css'
 
 export default function Skills() {

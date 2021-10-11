@@ -32,7 +32,7 @@ export default function Info() {
                         </div>
                     </div>
                     <div className='lg:flex lg:items-center lg:justify-center flex justify-center py-3  '>
-                        <a href='https://drive.google.com/file/d/1ToL1NfY2nFEP6rFzzWSOyHfYgUcUO0Na/view?usp=sharing' target='_blank' rel='noreferrer'
+                        <a href='https://drive.google.com/file/d/12AFVer0BPkDTk3BF5cc_1TbPBKwmOsa0/view?usp=sharing' target='_blank' rel='noreferrer'
                         >
                             <FaRegFilePdf className=' lg:transition lg:duration-500 lg:hover:opacity-70 lg:transform lg:ease-in-out lg:hover:-translate-y-1 lg:hover:scale-110' size={30} />
                         </a>
