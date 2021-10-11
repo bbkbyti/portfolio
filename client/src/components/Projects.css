@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1025px) {
+  .img {
+    display: flex;
+    margin-left: 70px;
+    width: 70px;
+   margin-bottom: 20px;
+   border-radius: 15px;
+  }
+
+  .desc {
+    background-color: rgb(218, 216, 216);
+    padding: 10px 20px 10px 20px;
+    font-family: serif;
+    font-weight: bold;
+  }
+
+  .title {
+      font-family: serif;
+      font-size: larger;
+      font-weight: bolder;
+      font-style: italic;
+      padding:8px 0 8px 0;
+
+  }
+
+  #blue-sky {
+    height: 60px;
+    }
+  
+  #vagary {
+    height: 60px;
+  }
+
+  #textbook {
+    height: 60px;
+  }
+ 
+}

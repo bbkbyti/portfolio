@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { FaHome, FaRegFilePdf, FaProductHunt } from "react-icons/fa";
+import { FaHome, FaRegFilePdf } from "react-icons/fa";
 
 
 export default function Navbar() {
@@ -9,20 +9,18 @@ export default function Navbar() {
 
             <div>
                 <Link to='/'>
-                <FaHome size={25} />
+                    <FaHome size={25} />
                 </Link>
             </div>
 
-            <div>
+            <div className='text-xl'>
                 <a href='#projects'>Projects</a>
             </div>
             <div className='lg:flex lg:items-center'>
-                <a  href='https://drive.google.com/file/d/1tCmhy1A92INsik6uTqc4icbjth_0abzv/view?usp=sharing' target='_blank' rel='noreferrer'>
-                <FaRegFilePdf size={25} />
+                <a href='https://drive.google.com/file/d/1tCmhy1A92INsik6uTqc4icbjth_0abzv/view?usp=sharing' target='_blank' rel='noreferrer'>
+                    <FaRegFilePdf size={25} />
                 </a>
-                <p className='lg:mx-1'
-                >Resume</p>
-                
+
             </div>
         </div>
     )

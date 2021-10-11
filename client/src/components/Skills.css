@@ -1,0 +1,16 @@
+
+    @media only screen and (max-width: 1025px) {
+        .skills{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        } 
+        .icon {
+            width: 25px;
+            margin-left: 5px;
+        }
+        .text {
+            font-size: 9px;
+            padding-bottom: 20px ;
+        }
+    }
