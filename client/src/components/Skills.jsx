@@ -6,7 +6,7 @@ import './Skills.css'
 
 export default function Skills() {
     return (
-        <div className='lg:mx-28 bg-gray-300 font-serif '>
+        <div className='lg:mx-28 font-serif '>
             <div className='lg:bg-gray-200 lg:py-12 lg:my-14 lg:rounded-3xl '>
                     <h2 className='lg:text-4xl lg:italic lg:font-bold lg:flex lg:justify-center lg:pb-3 text-2xl font-bold italic pt-3 flex justify-center py-3 '>
                         Skills</h2>
