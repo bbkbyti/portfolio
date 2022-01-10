@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
+//
 
 export default function Info() {
     return (
