@@ -16,7 +16,7 @@ export default function Projects() {
                             <img id='blue-sky' className='img lg:w-full lg:h-32 lg:object-cover' src='https://i.imgur.com/RlnDkjX.png' alt='Project Website' />
                         </a>
                         <p className=' desc lg:px-5 lg:py-3'
-                        >A website that provides the weather information of locations</p>
+                        >A website that provides the weather information of locations. Created with JavaScript - HTML - CSS</p>
                     </div>
                     <div>
                         <div className="lg:ml-10 lg:mt-10 lg:rounded lg:overflow-hidden lg:shadow-lg  lg:bg-gray-400 lg:relative  lg:transition lg:duration-500 hover:opacity-70 transform ease-in-out hover:-translate-y-1 hover:scale-110">
@@ -26,7 +26,7 @@ export default function Projects() {
                             <img id='trip' className='img lg:w-full lg:h-32 lg:object-cover' src='https://i.imgur.com/yMwHlXT.png' alt='Project Website' />
                         </a>
                         <p className=' desc lg:px-5 lg:py-3'
-                        >A website to share vacation experiences with photos</p>
+                        >A website to share vacation experiences with photos. Created with React.Js</p>
                     </div>
                     </div>
                     
@@ -37,17 +37,26 @@ export default function Projects() {
                             <img id='vagary' className=' img lg:w-full lg:h-32 lg:object-cover' src='https://i.imgur.com/Xii5sCM.png' alt='Project Website' />
                         </a>
                         <p className=' desc lg:px-5 lg:py-3'
-                        >A website to share vacation experiences with photos and more</p>
+                        >A website to share vacation experiences with photos and more. Created with Express.Js and React.Js</p>
                     </div>
 
-                    <div className='lg:ml-10 lg:mt-10 lg:rounded lg:overflow-hidden lg:shadow-lg lg:bg-gray-400 lg:relative  lg:transition lg:duration-500 hover:opacity-70 transform ease-in-out hover:-translate-y-1 hover:scale-110 '>
+                    <div className='lg:ml-10 lg:mt-10 lg:rounded lg:overflow-hidden lg:shadow-lg lg:bg-gray-400 lg:relative  lg:transition lg:duration-500 hover:opacity-70 transform ease-in-out hover:-translate-y-1 hover:scale-110'>
                         <p className='title lg:text-xl lg:py-1 lg:italic lg:font-bold'
                         >Textbook Rails</p>
                         <a href='https://confident-agnesi-4db176.netlify.app/' target='_blank' rel='noreferrer'>
                             <img id='textbook' className='img lg:w-full lg:h-32 lg:object-cover' src='https://i.imgur.com/u3wZtbl.png' alt='Project Website' />
                         </a>
                         <p className=' desc lg:px-5 lg:py-3'
-                        > A college textbook website </p>
+                        > A college textbook website created with Ruby on Rails and React.Js </p>
+                    </div>
+                    <div className='lg:ml-10 lg:mt-10 lg:rounded lg:overflow-hidden lg:shadow-lg lg:bg-gray-400 lg:relative  lg:transition lg:duration-500 hover:opacity-70 transform ease-in-out hover:-translate-y-1 hover:scale-110 '>
+                        <p className='title lg:text-xl lg:py-1 lg:italic lg:font-bold'
+                        >Recipe Factory</p>
+                        <a href='https://recipe-factory.vercel.app/' target='_blank' rel='noreferrer'>
+                            <img id='recipe' className='img lg:w-full lg:h-32 lg:object-cover' src='https://images-na.ssl-images-amazon.com/images/I/718ebRhi9AL.jpg' alt='Project Website' />
+                        </a>
+                        <p className=' desc lg:px-5 lg:py-3'
+                        > A recipe website created with Next.Js</p>
                     </div>
                 </div>
             </div>
