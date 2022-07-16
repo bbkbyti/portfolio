@@ -12,15 +12,13 @@ export default function Navbar() {
                     <FaHome size={25} />
                 </Link>
             </div>
-
             <div className='text-xl'>
                 <a href='#projects'>Projects</a>
             </div>
             <div className='lg:flex lg:items-center'>
-                <a href='https://drive.google.com/file/d/1OrKrBpy_X3kEfA_-35R6AFAAnp60kLU9/view?usp=sharing' target='_blank' rel='noreferrer'>
+                <a href='https://drive.google.com/file/d/1OH-TUV48HQewgHd4OViARxOUjTjhJeLx/view?usp=sharing' target='_blank' rel='noreferrer'>
                     <FaRegFilePdf size={25} />
                 </a>
-
             </div>
         </div>
     )

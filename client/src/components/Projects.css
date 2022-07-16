@@ -5,6 +5,7 @@
     width: 70px;
     margin-bottom: 20px;
     border-radius: 15px;
+    height: 60px;
   }
 
   .desc {
@@ -20,21 +21,5 @@
     font-weight: bolder;
     font-style: italic;
     padding: 8px 0 8px 0;
-  }
-
-  #blue-sky {
-    height: 60px;
-  }
-
-  #vagary {
-    height: 60px;
-  }
-
-  #textbook {
-    height: 60px;
-  }
-
-  #recipe {
-    height: 60px;
   }
 }
